@@ -1,18 +1,43 @@
-## Getting Started
+Hotel Reservation System 🏨
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+The Hotel Reservation System is a Java-based application designed to manage hotel reservations efficiently. It connects to a local database and provides features for creating, viewing, updating, and deleting reservations.
 
-## Folder Structure
+✨ Features
 
-The workspace contains two folders by default, where:
+Local Database Integration – Stores customer and reservation details securely.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+Customer Reservation Creation – Collects customer details such as name, contact number, etc.
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+Auto-Generated Reservation ID – Unique IDs are created and incremented automatically.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+Timestamped Reservation Date – Reservation dates are generated automatically using the timestamp function.
 
-## Dependency Management
+Database Operations
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+Create a reservation
+
+Retrieve room number of a customer
+
+View all reservations
+
+Update existing reservations
+
+Delete reservations
+
+⚙️ Technologies Used
+
+Java – Core programming language
+
+JDBC / SQL – Database connectivity
+
+Local Database – To store and manage reservations
+
+🚀 How It Works
+
+User provides customer details for reservation.
+
+System automatically generates a reservation ID and timestamped reservation date.
+
+Reservations are stored in the database.
+
+User can later view, update, or delete reservations directly through the system.
